@@ -18,8 +18,8 @@ pip install -r requirements.txt
 ## Pwn
 
 -   three directories in pwn including different kind of problems
-    -   portal-gun 
-         -type this command in server side. It should be hooked by the library in the directory.
+    -   portal-gun
+        -   type this command in server side. It should be hooked by the library in the directory.
             ```
             LD_PRELOAD=./hook.so ncat -ve ./portal_gun -kl 8888
             ```
